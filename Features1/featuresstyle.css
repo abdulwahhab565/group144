@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.heading {
+  height: 100vh;
+  width: 100%;
+  background-image: url(Image.img/03b9f31636b6093353836a1266638d16.jpg);
+  background-size: cover;
+    background-position: center;
+    position: relative;
+
+    color: #fffafa;
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    
+}
+.heading p {
+  color: darkred;
+  display: inline-block;
+  font-size: large;
+}
+
+.heading p span {
+  color: darkred;
+  display: inline-block;
+  font-size: large;
+}
+ 
+
+
+.heading span {
+  color: maroon;
+  display: inline-block;
+  padding: .5rem;
+  
+}
+.box-container {
+background-image: white;
+width: auto;
+height: auto;
+background-size: cover;
+}
+
+.box{
+ 
+  padding: 20px;
+ 
+}
+.box h3 {
+  font-size:x-large;
+  text-align:center;
+  justify-content: right;
+  margin: 20px;
+  padding: 15px;
+  background: transparent;
+  border-radius: 10px;
+  max-width: 1000px;
+  box-shadow: 0 4px 6px rgb(17, 17, 17);
+}
+
+.box h3 span {
+  font-size:large;
+  text-align:center;
+}
+.box img{
+  width: 200px;
+  height: 200px;
+  border-radius: 200%;
+}
+
+
+.btn{
+  padding: 14px 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-decoration: none;
+  border: 3px solid goldenrod;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: black;
+  color: rgb(122, 120, 120);
+  transition: .5s ease;
+}
+
+.btn:hover {
+  color:rgb(248, 232, 0);
+}
+
+footer {
+  height: 70vh;
+  width: 100%;
+  padding: 80px;
+  margin-left: -20px;
+  background-image: url(Image.img/03b9f31636b6093353836a1266638d16.jpg);
+  background-position: center;
+  background-size: cover;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.links {
+  padding: 20px 80px; 
+  margin-left: -40px;
+  margin-right: -100px;
+  margin-bottom: 50px;
+  text-align: center;
+
+}
+
+.links1 {
+  padding: 10px;
+  color: rgb(240, 214, 70);
+  font-size: 25px;
+  text-transform: uppercase;
+
+}
+
+.second {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 20px;
+  padding-bottom: 60px;
+}
+
+.contact_sec {
+  padding: 20px; 
+  margin-left: -100px;
+  margin-bottom: 50px;
+ 
+}
+
+.one {
+  color: black;
+  font-weight: bolder;
+  font-size: xx-large;
+  padding: 10px;
+}
+
+.last {
+  color: rgb(240, 214, 70);
+}
+
+.address {
+  padding: 20px;
+  color: white;
+  font-size: large;
+}
+
+.address2 {
+  padding: 20px;
+  color: white;
+  font-size: large;
+}
+
+.second li a {
+  display: block;
+  justify-content: space-between;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.second li a:hover {
+  color: gold;
+}
+

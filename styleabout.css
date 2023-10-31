@@ -5,7 +5,7 @@
 }
 
 .banner{
-background-image: linear-gradient(to right,#01052934,#010635ea),url('PICC/11.jpg');
+background-image:url('PICC/img 6.jpg');
 width: 100%;
 height: 50vh;
 background-repeat: none;
@@ -16,7 +16,7 @@ background-size: cover;
     text-align: start;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
-    color:bisque;
+    color:gold;
     padding-top: 130px;
     padding-left: 5%;
 
@@ -28,29 +28,31 @@ background-size: cover;
 }
 .banner_content h2 {
     text-align: start;
-    color:black;
+    color:gold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 10px;
     padding-left: 11%;
 
 }
 .banner_content h2 span{
-    color:bisque;
+    color:black;
 }
 #start{
     font-size: 50px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: sienna;
     
 }
 #start span{
-    color:black;
+    color:maroon;
     font-weight: bold;
 }
 #understart{
     font-size: 20px;
     text-align:center ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
 }
 .inter{
     width: 50%;
@@ -66,7 +68,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 1%;
 }
 .build_content h3{
-    color: black;
+    color: maroon;
     font-size: 50px;
     text-align: center;
     margin-top: 10%;
@@ -87,7 +89,7 @@ word-spacing: 5px;
  
 }
 .outside_content h3{
-    color: black;
+    color:maroon;
     font-size: 50px;
     text-align: center;
     margin-top: 10%;
@@ -105,7 +107,7 @@ word-spacing: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .material_content h3{
-    color: black;
+    color: maroon;
     font-size: 50px;
     text-align: center;
     margin-top: 10%;
@@ -119,7 +121,7 @@ text-align: center;
 word-spacing: 5px;
 }
 .bannerlast{
-    background-color:gray;
+    background-color:gainsboro;
     width: 100%;
     height: 40vh;
     background-repeat: none;
@@ -132,13 +134,13 @@ word-spacing: 5px;
         text-align: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bolder;
-        color:darkgrey;
+        color:sienna;
         padding-top: 100px;
     
         
     }
     .bannerlast_content h1 span{
-        color:bisque;
+        color:maroon;
     
     }
 
@@ -154,13 +156,19 @@ word-spacing: 5px;
  cursor: pointer;
 }
 .safe_butt{
-    color: black;
-    background:darkgray;
-    border: 2px solid black;
+    background-color: darkgoldenrod;
+    padding: 15px 25px;
+    margin-top: 10px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-size: medium;
+    transition: 0.5s ease;
     margin-left: 40%;
 }
 .safe_butt:hover{
-    background:bisque;
+    background-color: transparent;
+   cursor: pointer;
 }
 
 
@@ -183,10 +191,11 @@ word-spacing: 5px;
     text-align: center;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: maroon;
     
 }
 .bannerlaster{
-    background-color:gray;
+    background-color: blanchedalmond;
     width: 100%;
     height: 25vh;
     background-repeat: none;
@@ -199,13 +208,13 @@ word-spacing: 5px;
         text-align: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bolder;
-        color:bisque;
+        color:black;
         padding-top: 50px;
     
         
     }
     .bannerlaster_content h1 span{
-        color:darkgrey;
+        color:black;
     
     }
     
@@ -219,3 +228,139 @@ word-spacing: 5px;
         #lll{
            padding-top: 10px;
         }
+        .navbar {
+            height: 100vh;
+            width: 100%;
+            background-image: url(images/img\ 6.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            
+        }
+        
+        
+        
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 0px;
+            padding-top: 1%;
+            padding-right: 2%;
+        }
+        
+        .first{
+            display: flex;
+            list-style-type: none;
+            font-weight:normal;
+        }
+        
+        .first li a {
+            display: inline-block;
+            align-items: center;
+            justify-content: space-between;
+            width: 120px;
+            text-decoration: none;
+            font-size: 18px;
+            color:gainsboro;
+        }
+        
+        .first li a:hover {
+            color:sienna;
+            transition: .4s ease;
+        }
+        
+        .first .home {
+            text-decoration: underline 5px;
+            text-decoration-color:darkgoldenrod;
+            color: whitesmoke;
+        }
+        
+        .first .home:hover {
+            color:gold;
+        }
+        
+        .logos{
+            font-size: 30px;
+            cursor: pointer;
+            
+        }
+            
+        .consts{
+            color: gold;
+        }
+        .address {
+            padding: 20px;
+            color:white;
+            font-size: large;
+        }
+        
+        .address2 {
+            padding: 20px;
+            color:white;
+            font-size: large;
+        }
+        
+        .second li a {
+            display: block;
+            justify-content: space-between;
+            text-decoration: none;
+            color:white;
+            padding: 5px;
+        }
+        
+        .second li a:hover {
+            color: gold;
+        }
+    .footer {
+    height: 40vh;
+    width: 100%;
+    background-image: url(./PICC/img\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.links {
+    padding: 20px 80px; 
+    margin-left: -40px;
+    margin-right: -100px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.links1 {
+    padding: 10px;
+    color: rgb(240, 214, 70);
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+.second {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.contact_sec {
+    padding: 20px; 
+    margin-left: -100px;
+    margin-bottom: 50px;
+   
+}
+
+.one {
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+.last {
+    color: rgb(240, 214, 70);
+}
+        
